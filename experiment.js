@@ -1,7 +1,7 @@
 class Experiment {
   // Group Details
-  static rollNos = '10983437,10983743'
-  static names = 'The Tutors(Akhtar Banga, Phul Tekchand)'
+  static rollNos = '102103430, 102103448'
+  static names = 'Skyline Seekers(Rimjhim Mittal, Hrsh Dhingra)'
 
   canvasSel = '#myCanvas'
 
