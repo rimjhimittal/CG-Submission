@@ -1,49 +1,32 @@
-# 0x08 : 2D Animations (Project) #
+## 2D Sky Animation in HTML5 Canvas
+![Storyboard](<CG project Storyboard.PNG>)
+This project involves creating a simple 2D animation of a sky with an airplane and a hot air balloon. The animation is built using HTML5 Canvas and JavaScript, showcasing the objects moving across a blue sky dotted with clouds.
 
-![](./assets/teaser.png)
+The animation's visual storyboard can be seen above, illustrating the planned sequence of movements across the canvas. The sky serves as a static backdrop, while the dynamic elements, the airplane and hot air balloon, provide a contrast with their motion. The clouds may also be animated to drift slowly, enhancing the scene's depth and realism.
 
-## Assignment ##
+### Storyboard Overview
 
-### Step 1: Storyboard ###
+The storyboard image displays a series of frames indicating the progression of the animation:
 
-[What is a
-storyboard?](https://www.google.com/search?hl=en&q=what%20is%20storyboarding#ip=1)
+1. **Frame 1**: The airplane enters from the left, flying towards the right side of the canvas. A hot air balloon floats gently upwards in the background.
+2. **Frames 2-3**: As the airplane continues its flight path, the hot air balloon ascends and moves in a slight arc, possibly influenced by a gentle breeze in the upper atmosphere.
+3. **Frame 4**: Both the airplane and the hot air balloon reach their final positions on the canvas, completing one loop of the animation cycle.
 
-It is an industry standard practice to create a rough
-sketch of target outcome of an animation through a few
-key-frames sketched on a piece of paper like a comic
-strip; so as to [fail earlier than
-later](https://hbr.org/2011/04/failing-by-design).
+### Implementation Details
 
-Create a storyboard of your target animation sequence
-(or a [perpetual
-motion](https://www.google.com/search?q=perpetual+motion))
-as you please.  This'll be your pitch to be submitted
-on the first deadline
+- The **airplane** will be animated to move across the canvas from left to right, looping back to the left side once it exits the frame, creating a continuous flight path.
+- The **hot air balloon** will have a more complex path, simulating the effect of wind currents that affect its vertical and horizontal positioning.
+- **Clouds** will slowly traverse the sky behind the main animated elements.
 
-### Step 2: Animation ###
+### Animation Flow
 
-Using the [`requestAnimationFrame`
-interface](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) 
+- The animation starts with a clear blue sky, followed by the entry of the airplane from the left edge.
+- As the airplane flies across the sky, the hot air balloon begins its slow ascent, starting from the lower part of the canvas.
+- The movement of clouds, airplane, and balloon will be synchronized to create a believable and visually appealing scene.
+- Upon reaching the edge of the canvas, the airplane and balloon will reset their positions off-screen, ensuring a smooth transition for their re-entry, thus creating an endless loop of motion.
 
-Create an animation of a composition of 2d geometry,
-its tranforms and /or its fill/stroke styles.
+### Possible Enhancements
 
-As a project this gets submitted on the second
-deadline.
-
-## Submit ##
-
-### Storyboard ###
-
-1. Git URL
-2. Commit ID
-3. Storyboard (One image containing the storyboard)
-
-### Final Project ###
-
-1. Git URL
-2. Commit ID
-3. Storyboard (One image containing the storyboard)
-3. Teaser
-4. Video Link
+- To add further interactivity, user input could alter the flight speed or direction of the airplane and the ascent of the hot air balloon.
+- Day to night transition effects can be implemented, adding dynamic lighting and allowing for a transition to a starry night sky with a moon instead of the sun.
+- Sound effects such as the hum of the airplane engine or the whoosh of the hot air balloon burner could provide auditory feedback alongside the visual movements.
