@@ -3,7 +3,7 @@ const getDom = document.querySelector.bind(document)
 
 function canvasSetup(sel) {
   const {canvas, bb:{width: W, height: H}} = getCanvas(sel)
-  canvas.width = 10
+  canvas.width = 7
   canvas.height = 1
 
   setTimeout(() => {
