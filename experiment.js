@@ -1,7 +1,7 @@
 class Experiment {
   // Group Details
   static rollNos = "102103430, 102103443";
-  static names = "The Tutors(Rimjhim Mittal, Hrsh Dhingra)";
+  static names = "Skyline Seekers(Rimjhim Mittal, Hrsh Dhingra)";
 
   canvasSel = "#myCanvas";
 
@@ -40,6 +40,7 @@ class Experiment {
       cloud.draw3(ts, ctx);
       cloud.draw4(ts, ctx);
       cloud.draw5(ts, ctx);
+      cloud.draw6(ts, ctx);
       cloud.hot(ts, ctx);
 
       // cloud.update(ts);
